@@ -10,7 +10,7 @@ h2 {background-color: #1c1c1c;
     text-align: center;}
 
     
-.btn{height:80px; width:30%;
+.btn{height:80px; width:150px;
     font-size: 24px;
     color:#ffffff;
     background-color: #6e0b62;
@@ -25,7 +25,7 @@ h2 {background-color: #1c1c1c;
  
 }
     
-.btn2{height:80px; width:30%;
+.btn2{height:80px; width:150px;
     font-size: 24px;
     color:#ffffff;
     background-color: #007bff;
@@ -40,7 +40,7 @@ h2 {background-color: #1c1c1c;
   
  
 }
-.btn3{height:80px; width:30%;
+.btn3{height:80px; width:150px;
     font-size: 24px;
     color:white;
     background-color:#ff0707;
