@@ -1,6 +1,8 @@
 # Quote-generator
 This is a random quote generator with javaScript
 
+https://chepkuruipurity.github.io/Quote-generator/
+
 ## Step 1: Random quotes
 A random quotation or text generator is a tool that creates random fake quotes by assembling sentence fragments. 
 
