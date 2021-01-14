@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/ble.png">
+    <title>Random quote generator</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="card">
+            <h2>Random quote generator</h2>
+            <div class="identify">
+                <div id="tag">
+                    <p class="name">Choose type of quote</p>
+                    <input id="t1" type="radio" name="tag" value="inspiration" Checked><span
+                        class="inline">Inspiration</span>
+                    <input id="t2" type="radio" name="tag" value="food"><span class="inline">Food</span>
+
+                </div>
+                <div id="select">
+                    <p class="name">How many quotes do you want to generate?</p>
+                    <select id="num">
+
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+            </div>
+            <div id="quote">
+                <!--quote will be displayed here-->
+                <div class="quo">
+                    <img src="icons/quo.png">
+                    <p class="beg"></p>
+                    <img src="icons/quo2.png">
+
+                </div>
+
+
+            </div>
+
+            <button class="btn">Custom</button>
+            <button class="btn2">Get Quote</button>
+            <button class="btn3">Clear</button>
+        </div>
+
+    </div>
+    <script src="P5_01_random.js"></script>
+    <script src="P5_02_custom.js"></script>
+
+</body>
+
+</html>
